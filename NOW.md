@@ -2,10 +2,11 @@
 
 ## State
 
-Completed portfolio research unit with unpublished local Git divergence.
+Completed portfolio research unit; checkout clean and `main` matches `origin/main` at `368e32b` (verified 2026-09-29).
 
-**Last reconciled:** 2026-08-15 against the repository README, current Git state
-and Linear issue LAT-47.
+**Last reconciled:** 2026-09-29 against the repository README and current Git
+state only. The 2026-08-15 note cited Linear issue LAT-47 as Done; Linear was
+not re-read on 2026-09-29, so that status is not reconfirmed as current.
 
 ## Current bounded unit
 
@@ -16,19 +17,20 @@ configuration span. Publication synchronization remains a separate decision.
 
 - `docs/when-overlapping-windows-invent-predictability.md` records the principal result.
 - The repository preserves the intentionally leaky legacy path as the subject of study.
-- Linear LAT-47 records the scoped research unit as Done.
+- The 2026-08-15 reconciliation recorded Linear LAT-47 as Done. That issue was not re-read on 2026-09-29.
 
 ## Next gate
 
-Founder decision on reviewing and pushing the twelve local commits currently
-ahead of `origin/main`. Do not infer that local completion equals publication.
+No Git synchronization gate remains. Any future publication decision is
+separate; do not infer repository synchronization equals publication.
 
 ## Git and publication state
 
 - Branch: `main`.
-- Observed head before this status update: `c44d1ac`.
-- Observed divergence: twelve commits ahead of the existing upstream ref.
-- Push and current remote publication: **not verified**.
+- 2026-08-15 historical observation: `c44d1ac` was twelve commits ahead of the
+  existing upstream reference; remote publication was not verified.
+- 2026-09-29 reconciliation: checkout clean; `main` matches `origin/main` at
+  `368e32b`.
 
 ## Do not start
 
@@ -43,6 +45,7 @@ averaging incompatible paths.
 
 ## Blind spots
 
-The remote was not fetched during reconciliation; upstream divergence uses the
-existing local tracking reference. No clean-machine reproduction was run in
-this status update.
+The 2026-09-29 check found `main` even with `origin/main` and a clean working
+tree. Linear was not re-read for this update, so LAT-47's status rests on the
+2026-08-15 note rather than a current lookup. No clean-machine reproduction was
+run in this status update.
